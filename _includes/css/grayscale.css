@@ -259,7 +259,7 @@ a:focus {
     color: #fff;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/vista-view.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/vista-view.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
