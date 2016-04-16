@@ -368,98 +368,6 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-.pricing {
-  /*position: absolute;*/
-  background: #3498db;
-  width: 280px;
-  top: 50%;
-  left: 50%;
-  margin: -20px 0 0 -140px;
-  padding: 40px 0 20px;
-  color: #fff;
-  box-shadow: 0 0 3px rgba(0,0,0,.3);
-}
-
-.pricing .thumbnail {
-  background: #fff; /* IE Fall */
-  background: rgba(255,255,255,.2);
-  display: block;
-  width: 90px;
-  height: 90px;
-  margin: 0 auto;
-  -webkit-border-radius: 100%;
-     -moz-border-radius: 100%;
-          border-radius: 100%;
-  font-size: 36px;
-  line-height: 90px;
-  text-align: center;
-}
-
-.pricing .title {
-  cursor: pointer;
-  background: #2980b9;
-  margin: 40px 0 0;
-  padding: 10px;
-  font-size: 18px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.pricing .content .sub-title {
-  background: #eee;
-  padding: 10px;
-  color: #666;
-  font-size: 14px;
-  font-weight: 700;
-  text-align: center;
-}
-.pricing .content ul {
-  list-style: none;
-  background: #fff;
-  margin: 0;
-  padding: 0;
-  color: #666;
-  font-size: 14px;
-}
-.pricing .content ul li {
-  padding: 10px 20px;
-}
-.pricing .content ul li:nth-child(2n) {
-  background: #f3f3f3;
-}
-.pricing .content ul li .fa {
-  width: 16px;
-  margin-right: 10px;
-  text-align: center;
-}
-.pricing .content ul li .fa-check {
-  color: #2ecc71;
-}
-.pricing .content ul li .fa-close {
-  color: #e74c3c;
-}
-.pricing .content a {
-  display: block;
-  background: #2980b9;
-  max-width: 80px;
-  margin: 0 auto;
-  margin-top: 20px;
-  padding: 10px 15px;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: none;
-  -webkit-transition: 0.2s linear;
-  transition: 0.2s linear;
-}
-.pricing .content a:hover {
-  background: #34495e;
-  /* IE Fallback */
-  background: rgba(52, 73, 94, 0.7);
-}
-
 .logo {
   height: 400px;
   padding-bottom: 10px;
@@ -476,4 +384,79 @@ body {
       opacity: 1;
       transform: scale(1, 1);
   }
+}
+
+/* Pricing Table */
+
+#pricing-table {
+  padding-top: 50px;
+}
+#pricing-table .pricing {
+  marign: 0;
+  padding: 0;
+  font-family: 'Robot', sans-serif;
+}
+#pricing-table .pricing .pricing-table {
+  padding-bottom: 30px;
+}
+#pricing-table .pricing .pricing-table .pricing-header {
+  position: relative;
+  background: #34495e;
+  padding: 22px 22px;
+  text-align: center;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+#pricing-table .pricing .pricing-table .pricing-header .pricing-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+#pricing-table .pricing .pricing-table .pricing-header .pricing-rate {
+  font-size: 70px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+}
+#pricing-table .pricing .pricing-table .pricing-header .pricing-rate sup {
+  font-size: 24px;
+  position: relative;
+  top: -30px;
+  color: #bdc3c7;
+}
+#pricing-table .pricing .pricing-table .pricing-header .pricing-rate span {
+  font-size: 16px;
+  color: #bdc3c7;
+  text-transform: uppercase;
+}
+#pricing-table .pricing .pricing-list {
+  padding: 20px 0 40px 0;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+}
+#pricing-table .pricing .pricing-list ul {
+  padding: 0px;
+  display: table;
+  margin: 0px auto;
+}
+#pricing-table .pricing .pricing-list ul li {
+  list-style: none;
+  border-bottom: 1px solid #EAECEB;
+  color: #bdc3c7;
+  font-size: 16px;
+  line-height: 42px;
+}
+#pricing-table .pricing .pricing-list ul li:last-child {
+  border: none;
+}
+#pricing-table .pricing .pricing-list ul li i {
+  margin-right: 12px;
+  color: #bdc3c7;
+}
+#pricing-table .pricing .pricing-list ul li span {
+  color: #34495e;
 }
