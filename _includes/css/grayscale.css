@@ -69,6 +69,15 @@ a:focus {
     background-color: {{ site.color.primary-dark }};
 }
 
+.navbar-brand > img {
+  padding-left: 10px;
+}
+
+.navbar-brand {
+  padding: 0 0 0 0;
+  height: -1px !important;
+}
+
 .navbar-custom .navbar-brand {
     font-weight: 700;
 }
