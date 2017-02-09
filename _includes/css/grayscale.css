@@ -61,6 +61,14 @@ a:focus {
     color: #11505d;
 }
 
+.fa-check:before {
+  color: green;
+}
+
+.fa-close:before {
+  color: red;
+}
+
 .light {
     font-weight: 400;
 }
@@ -450,6 +458,7 @@ body {
   padding: 20px 0 40px 0;
   background: #ffffff;
   border: 1px solid #e3e3e3;
+  text-align: left;
 }
 #pricing-table .pricing .pricing-list ul {
   padding: 0px;
@@ -459,7 +468,7 @@ body {
 #pricing-table .pricing .pricing-list ul li {
   list-style: none;
   border-bottom: 1px solid #EAECEB;
-  color: #bdc3c7;
+  color: #000;
   font-size: 16px;
   line-height: 42px;
 }
