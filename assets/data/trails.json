@@ -1,0 +1,44 @@
+{
+  "trails": [
+    {
+      "trail_name": "The Dome",
+      "location": "Northeast Trails",
+      "distance": "5 km"
+    },
+    {
+      "trail_name": "Jurassic Park",
+      "location": "Northeast Trails",
+      "distance": "5 km"
+    },
+    {
+      "trail_name": "Powerline",
+      "location": "Northeast Trails",
+      "distance": "5 km"
+    },
+    {
+      "trail_name": "Chicken",
+      "location": "Northeast Trails",
+      "distance": "5 km"
+    },
+    {
+      "trail_name": "The Lost Boat",
+      "location": "Northeast Trails",
+      "distance": "5 km"
+    },
+    {
+      "trail_name": "The Trench",
+      "location": "Northeast Trails",
+      "distance": "5 km"
+    },
+    {
+      "trail_name": "Moonshine Ridge",
+      "location": "Northeast Trails",
+      "distance": "5 km"
+    },
+    {
+      "trail_name": "CSX Overlook",
+      "location": "Northeast Trails",
+      "distance": "5 km"
+    },
+  ]
+}
