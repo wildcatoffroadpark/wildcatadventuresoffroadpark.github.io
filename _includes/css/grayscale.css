@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -406,6 +410,65 @@ body {
       transform: scale(1, 1);
   }
 }
+
+/* Rentals */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flexbox Config */
+
+#rentals-list {
+  display: flex;
+  justify-content: center;
+}
+
+/* Rentals */
+
+.rentals-container {
+  background: #fafafa;
+  padding: 20px 0;
+}
+
+.rental {
+  border-bottom: 1px solid #000;
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8px;
+}
+
+.rental .preview {
+  margin-bottom: 16px;
+  margin-left: 16px;
+  width: auto;
+}
+
+.rental .information li {
+  border-bottom: 1px solid #EAECEB;
+  padding: 4px 0 4px 0;
+}
+
+.rental .information li:last-child {
+  border: none;
+}
+
+.rental .information ul li span {
+  margin-left: 8px;
+}
+
+.rental .information {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.rental .pricing {
+  font-size: 32px;
+  font-weight: 700;
+}
+
 
 /* Pricing Table */
 
