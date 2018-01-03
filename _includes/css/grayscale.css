@@ -433,16 +433,22 @@ body {
 }
 
 .rental {
-  border-bottom: 1px solid #000;
   color: #000;
   display: flex;
   justify-content: space-around;
   margin-bottom: 8px;
+  padding-top: 8px;
+}
+
+.seperator {
+  /* width: 960px; */
+  border-bottom: 2px solid #EAECEB;
+  margin: 16px;
+  padding: 4px 0 4px 0;
 }
 
 .rental .preview {
   margin-bottom: 16px;
-  margin-left: 16px;
   width: auto;
 }
 
