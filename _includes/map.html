@@ -1,2 +1,13 @@
-    <!-- Map Section -->
-    <div id="map" class="container content-section text-center"></div>
+<!-- Map Section -->
+<div id="map"></div>
+<script>
+  mapboxgl.accessToken =
+    'pk.eyJ1IjoiZXNwYXJrbWFuIiwiYSI6ImNrMzRxeHFvZTEwc2EzaG9xbzZpZHozbnQifQ.N4w9Ow9rwz29gV8falFZLQ';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    width: '100%',
+    center: [-84.1860517, 37.221749],
+    style: 'mapbox://styles/mapbox/streets-v11',
+    zoom: 13,
+  });
+</script>
